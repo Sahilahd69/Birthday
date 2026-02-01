@@ -7,41 +7,30 @@ body {
   text-align: center;
 }
 
-.container {
-  padding: 40px 20px;
+.container{
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+  padding: 40px;
 }
 
-h1 {
-  font-size: 3rem;
-  margin-bottom: 20px;
+.container p{
+  font-size: 22px;      /* text bada */
+  line-height: 1.9;     /* spacing clean */
+  color: #333;
 }
 
-.photos {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 15px;
-  padding: 20px;
+h1{
+  font-size: 48px;      /* big title */
+  margin-bottom: 30px;
 }
 
-.photos img {
-  width: 100%;
-  height: auto;
-  border-radius: 15px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
-
-p {
-  max-width: 700px;
-  margin: 20px auto;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  text-align: justify;
-}
-
-.signature {
-  font-style: italic;
+.signature{
+  font-size: 24px;
   margin-top: 40px;
+  font-style: italic;
 }
+
 
 .music-btn {
   background: rgba(255,255,255,0.25);
