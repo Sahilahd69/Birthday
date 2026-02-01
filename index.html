@@ -1,51 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Happy Birthday ❤️</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-<audio id="bg-music" loop>
-  <source src="DARKHAAST.mp3" type="audio/mpeg">
-</audio>
+  <!-- Audio -->
+  <audio id="bg-music" loop>
+    <source src="DARKHAAST.mp3" type="audio/mpeg" />
+  </audio>
+  <button class="music-btn" onclick="playMusic()">❤️ Play Music</button>
 
-<button class="music-btn" onclick="playMusic()">
-  ❤️ Play Music
-</button>
-
-
-
+  <!-- Photos gallery -->
   <div class="photos">
-  <img src="photo1.JPG" alt="Photo 1">
-  <img src="photo2.JPG" alt="Photo 2">
-  <img src="photo3.JPG" alt="Photo 3">
-  <img src="photo4.JPG" alt="Photo 4">
-</div>
+    <img src="images/photo1.jpg" alt="Photo 1" />
+    <img src="images/photo2.jpg" alt="Photo 2" />
+    <img src="images/photo3.jpg" alt="Photo 3" />
+    <img src="images/photo4.jpg" alt="Photo 4" />
+    <img src="images/photo5.jpg" alt="Photo 5" />
+    <img src="images/photo6.jpg" alt="Photo 6" />
+    <img src="images/photo7.jpg" alt="Photo 7" />
+    <img src="images/photo8.jpg" alt="Photo 8" />
+    <img src="images/photo9.jpg" alt="Photo 9" />
+    <img src="images/photo10.jpg" alt="Photo 10" />
+    <img src="images/photo11.jpg" alt="Photo 11" />
+    <img src="images/photo12.jpg" alt="Photo 12" />
+    <img src="images/photo13.jpg" alt="Photo 13" />
+    <img src="images/photo14.jpg" alt="Photo 14" />
+    <img src="images/photo15.jpg" alt="Photo 15" />
+    <img src="images/photo16.jpg" alt="Photo 16" />
+    <img src="images/photo17.jpg" alt="Photo 17" />
+    <img src="images/photo18.jpg" alt="Photo 18" />
+    <img src="images/photo19.jpg" alt="Photo 19" />
+    <img src="images/photo20.jpg" alt="Photo 20" />
+    <img src="images/photo21.jpg" alt="Photo 21" />
+    <img src="images/photo22.jpg" alt="Photo 22" />
+    <img src="images/photo23.jpg" alt="Photo 23" />
+    <img src="images/photo24.jpg" alt="Photo 24" />
+    <img src="images/photo25.jpg" alt="Photo 25" />
+    <img src="images/photo26.jpg" alt="Photo 26" />
+    <img src="images/photo27.jpg" alt="Photo 27" />
+    <img src="images/photo28.jpg" alt="Photo 28" />
+    <img src="images/photo29.jpg" alt="Photo 29" />
+    <img src="images/photo30.jpg" alt="Photo 30" />
+  </div>
 
+  <!-- Heartfelt paragraph -->
+  <div class="container">
+    <h1>Happy Birthday, My Love ❤️</h1>
 
+    <p>
+      <!-- Replace this with your full 500-word paragraph -->
+      Tum meri zindagi ka wo hissa ho jo bina bole sab samajh leta hai. Har din tumhare saath thoda zyada jeene ka mann karta hai. Aaj tumhara birthday hai, par gift mujhe mila hai — tum. [Aur yahan likh do 500 words]
+    </p>
 
-    
-</div>
+    <p class="signature">— Forever Yours</p>
+  </div>
 
-
-<div class="container">
-  <h1>Happy Birthday, My Love ❤️</h1>
-
-  <p>
-    Tum meri zindagi ka wo hissa ho jo bina bole sab samajh leta hai.
-    Har din tumhare saath thoda zyada jeene ka mann karta hai.
-    Aaj tumhara birthday hai, par gift mujhe mila hai — tum.
-  </p>
-
-  <p class="signature">
-    — Forever Yours
-    <p>Scroll down…</p>
-<p style="display:none;" id="hidden-msg">I love you ❤️ forever</p>
-
-  </p>
-</div>
-
+  <!-- JS to play music -->
+  <script>
+    function playMusic() {
+      document.getElementById("bg-music").play();
+    }
+  </script>
 </body>
 </html>
